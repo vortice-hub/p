@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas - {{NOME}}</title>
+    <link rel="stylesheet" href="https://vortice-hub.github.io/p/style.css">
+</head>
+<body>
+    <div class="card">
+        <img src="{{FOTO}}" alt="Foto de {{NOME}}" class="profile-pic">
+        <h1>{{NOME}}</h1>
+        <p class="cargo">{{CARGO}}</p>
+        
+        <div class="links">
+            <a href="tel:{{TELEFONE}}" class="btn">📞 Telefone</a>
+            <a href="mailto:{{EMAIL}}" class="btn">📧 E-mail</a>
+            <a href="{{INSTAGRAM}}" class="btn">📸 Instagram</a>
+            <a href="{{LINKEDIN}}" class="btn">💼 LinkedIn</a>
+            <a href="{{VCF_ARQUIVO}}" class="btn save-contact">💾 Salvar Contato</a>
+        </div>
+
+        <div class="qr-code">
+            <p>Escaneie para compartilhar:</p>
+            <img src="{{QR_CODE}}" alt="QR Code">
+        </div>
+    </div>
+</body>
+</html>
