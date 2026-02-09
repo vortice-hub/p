@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartão de Visitas - {{NOME}}</title>
-    <link rel="stylesheet" href="https://vortice-hub.github.io/p/style.css">
-</head>
+    <title>Vórtice Digital - {{NOME}}</title>
+    <link rel="stylesheet" href="../style.css"> </head>
 <body>
+    <div class="background-decor"></div>
+
     <div class="card">
-        <img src="{{FOTO}}" alt="Foto de {{NOME}}" class="profile-pic">
-        <h1>{{NOME}}</h1>
-        <p class="cargo">{{CARGO}}</p>
-        
-        <div class="links">
-            <a href="tel:{{TELEFONE}}" class="btn">📞 Telefone</a>
-            <a href="mailto:{{EMAIL}}" class="btn">📧 E-mail</a>
-            <a href="{{INSTAGRAM}}" class="btn">📸 Instagram</a>
-            <a href="{{LINKEDIN}}" class="btn">💼 LinkedIn</a>
-            <a href="{{VCF_ARQUIVO}}" class="btn save-contact">💾 Salvar Contato</a>
+        <div class="profile-area">
+            <img src="{{FOTO}}" alt="{{NOME}}">
         </div>
 
-        <div class="qr-code">
-            <p>Escaneie para compartilhar:</p>
-            <img src="{{QR_CODE}}" alt="QR Code">
+        <div class="status-badge">Ativo • Vórtice Premium</div>
+
+        <h2>{{NOME}}</h2>
+        <p class="subtitle">{{CARGO}}</p>
+        
+        <div class="links-container">
+            <a href="tel:{{TELEFONE}}" class="btn-link">📞 Entrar em contato</a>
+            <a href="mailto:{{EMAIL}}" class="btn-link">📧 Enviar E-mail</a>
+            <a href="{{INSTAGRAM}}" class="btn-link">📸 Instagram Profissional</a>
+            <a href="{{LINKEDIN}}" class="btn-link">💼 Conectar no LinkedIn</a>
+            <a href="{{VCF_ARQUIVO}}" class="btn-link btn-save">💾 Salvar na Agenda</a>
         </div>
+
+        <div class="qr-area">
+            <p style="font-size: 12px; margin-bottom: 10px; opacity: 0.7;">Compartilhe meu contato</p>
+            <img src="{{QR_CODE}}" alt="QR Code" class="qr-img">
+        </div>
+
+        <div class="footer">Vórtice Digital • 2026</div>
     </div>
 </body>
 </html>
