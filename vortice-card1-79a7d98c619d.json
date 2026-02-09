@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vortice-card1",
+  "private_key_id": "79a7d98c619dceeb1dda8bd2d87157c26c37a679",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxj6fQmeTaW58F\n4OKMuJQgx65k6askdv+nTNDRjT9k5pOfLtburgOSgAp5s2ZMOCWGTE94iAlk+h8a\nVMfjlrP/QM+c7/FU58vVKv/jr3mQ5hgys1fUOwM5JUaIjUtT5us0N/6uMvF2CEry\nY1VKwCO+xwjK6wtzUtFFmHP2kWXKCBgwjYuFCyFVQVlaaeG9vKsC4isqk32rwVqN\nvM9p1oCEZEAa9bV3KfOUcLcczt9QajWTEszhw1+kJbxZ0mVUn7DjY8okIimglH7h\n9ry/f5brB+7Zf3N5JCBoYgVSScXiCvXPQkFzBYedCLdMzIa79+xUbi9njWaWEa9K\nCfYkIqQ3AgMBAAECggEADxoOxdkw87lzLwbPffR89MTG+mI9Yh6U49/OquP+jlBm\nIdXUBfza5Ozq9yrg+n6UAnYfFDtNwT7cwlqPnbXFnWIfxlNKDVShq4G6vdzA1Cgd\nysIiKDTUs1mORDLwQzSSsKBKkvpWOxm9dhwotvDcmW9IOin/kVFr5yVuR3xaUfJ1\n3Id92gSHWRGV5ER0LKtflN48Xdyq3YSx3UUUcoy2HBp9jMVrSUyg/tgMmjH7uflD\nZJepE/7XKts7jCTXeALoXsma3YIinGRZ7STOC6uPTD+6FC3LsM/YE4W8kLGiUmL0\nIaVjfhILNwn7FGV3VlmHTzorCkDvAxlHZ/MjiDRcIQKBgQDq1FNq+IPeMCHada26\nybiXYbDIeN6aFu7uZfeBP1fYpRiXv8QI1A00YKvzUSz0R0/LzPpcyL7jRoVDhHDe\nDuGV0sgD08VkQKZTj4whxlB2xvhsqWuEVlo97D/lPapErw7yeOO/CjLsBMlEbDrr\nchC3ek8+WCgtfHsSzRJgGx3lXwKBgQDBkZ/ikb8jqD/I1/OFPJooAqjVDJh47dmG\nD2LCAyCoYs3si+ywR0Laal/XcPHV6S8cEjHlmJugM/+F/1dCKIPxpvnxKLoXGfwG\nU9o/GLVfh5WaEw60Uh2GG5otAylVG5g8E4VP0novJ/IxdYhXapBTxcDHJ6V2pC8o\nyUYN2CgYKQKBgQDb8ej7zS59wilDG2uQAvYg28Af1I3yVz6NDfZHGVQnN2MUZumu\ntyZzA4SqTkLDvbMwmJl6pA+egeO5vGeWpOuHT7hFVWmRn7fplg7TZ5Lf3Ta7V+e7\nOMInM4sZJKvAzxI56x6tRVkylL0KmDCLa/faUfW82Acxq2D+2BK4700OEwKBgEhT\nCAFY4akKCWMaxSOIRDUk4T5RaXrtq/P6NbU2A/LGkBiNI4+t4J3JVywhSErbyL1d\nUwVtYuCV7Sh9AnZ2uu4ErKjdxcIx9EfM9uPScJpUB6K88iaP8/YSxCWDY+Mn31a7\nGHl9tCeAbm7qclnvOCQE5IXFG37b078SjTlJBZoZAoGAYU1DGgONUTkKEfj+hE3A\nOQLtr87no6F+BsXi3GH8W+qaoEaC83ixhzPazB8xjqBXdcxNdrLUqV1IcdkqPtxe\nYBGuU+19Hj+qz+bamcUfn+EU66AhG9RSqCethA0vYwXPF4YM5JRdYP4M2vDC12OS\nKukYXdUppFyBHAHiZO1lO6s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vortice-robot@vortice-card1.iam.gserviceaccount.com",
+  "client_id": "108127768016948804786",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vortice-robot%40vortice-card1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
