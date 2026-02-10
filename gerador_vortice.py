@@ -5,7 +5,7 @@ import gspread
 import git
 from oauth2client.service_account import ServiceAccountCredentials
 
-# CONFIGURAÇÃO VORTICE
+# CONFIGURAÇÃO VORTICE - Agora apontando para a raiz do GitHub Pages
 BASE_URL = "https://vortice-hub.github.io/p/" 
 
 def enviar_ao_github():
@@ -54,8 +54,8 @@ def fabricar_vortice():
         nome = str(cliente.get('nome', 'Cliente')).strip()
         slug = nome.lower().replace(" ", "_")
         
-        # Define o caminho da pasta do cliente
-        caminho_cliente = f"p/{slug}" 
+        # AJUSTE AQUI: Removido o "p/" para criar na raiz
+        caminho_cliente = f"{slug}" 
         
         # 🛡️ TRAVA DE SEGURANÇA: Verifica se o cliente já existe
         if os.path.exists(caminho_cliente):
@@ -73,10 +73,10 @@ def fabricar_vortice():
 
         # 3.2 QR Code
         qr_nome = f"{slug}_qr.png"
+        # O link do QR Code agora aponta para a URL correta sem a pasta p duplicada
         qrcode.make(BASE_URL + slug + "/").save(f"{caminho_cliente}/{qr_nome}")
 
         # 3.3 HTML Final
-        # Certifique-se que o seu index.html raiz tenha essas tags {{}}
         html_final = template.replace("{{NOME}}", nome)\
                              .replace("{{CARGO}}", str(cliente.get('cargo', '')))\
                              .replace("{{TELEFONE}}", str(cliente.get('telefone', '')))\
